@@ -40,6 +40,15 @@ The dataset used consists of hand landmark coordinates extracted using Mediapipe
 - `seaborn`
 - `tqdm`
 
+## Model Performance
+| Model | Accuracy |
+|--------|----------|
+| Random Forest | 85.7% |
+| SVC (Best) | 97.9% |
+| XGBoost | 91.6% |
+| Extra Trees | 81.7% |
+| KNN | 64.9% |
+
 ## MLflow Experiment Tracking
 
 All training experiments are tracked using MLflow, including:
@@ -49,15 +58,6 @@ Accuracy, precision, recall, F1-score
 Confusion matrices
 Model artifacts (saved binaries)
 Preprocessing pipeline objects
-
-## Model Performance
-| Model | Accuracy |
-|--------|----------|
-| Random Forest | 85.7% |
-| SVC (Best) | 97.9% |
-| XGBoost | 91.6% |
-| Extra Trees | 81.7% |
-| KNN | 64.9% |
 
 ![Mlflow](https://github.com/user-attachments/assets/8bc8d881-b197-48ef-86ef-19b39f2b949e)
 
