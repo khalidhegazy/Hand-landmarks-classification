@@ -40,6 +40,16 @@ The dataset used consists of hand landmark coordinates extracted using Mediapipe
 - `seaborn`
 - `tqdm`
 
+## MLflow Experiment Tracking
+
+All training experiments are tracked using MLflow, including:
+
+Parameters and hyperparameters
+Accuracy, precision, recall, F1-score
+Confusion matrices
+Model artifacts (saved binaries)
+Preprocessing pipeline objects
+
 ## Model Performance
 | Model | Accuracy |
 |--------|----------|
@@ -48,6 +58,8 @@ The dataset used consists of hand landmark coordinates extracted using Mediapipe
 | XGBoost | 91.6% |
 | Extra Trees | 81.7% |
 | KNN | 64.9% |
+
+![Mlflow](https://github.com/user-attachments/assets/8bc8d881-b197-48ef-86ef-19b39f2b949e)
 
 ## Results
 The SVC model achieved the highest accuracy (97.9%) and was used for deployment. The system can classify 18 different hand gestures accurately in real-time.
